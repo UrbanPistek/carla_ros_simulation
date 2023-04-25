@@ -16,7 +16,7 @@ This workshops aims cover the following topics:
 
 A copy of the intro slides are availible here: `./ME599_Simulation_Workshop.pdf`
 
-Now, be sure to clone the [carla_ros_simulation](git@github.com:UrbanPistek/carla_ros_simulation.git) 
+Now, be sure to clone the [This Repo](git@github.com:UrbanPistek/carla_ros_simulation.git) 
 as it contains everything described in this workshop. 
 
 ```
@@ -182,6 +182,8 @@ docker-compose --file ./foxglove.yaml up -d
 ```
 
 Now go to `http://localhost:8080` to see all the topics listed. 
+
+<br>
 
 ## The Simulation Stack
 
