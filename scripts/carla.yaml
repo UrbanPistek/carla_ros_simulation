@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+
+  # Carla server container
+  carla:
+    image: carlasim/carla:0.9.13
+    container_name: carla
+    runtime: nvidia
+    command: ["bash", "./CarlaUE4.sh", "-vulkan", "-quality-level=Low"]
+    runtime: nvidia
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - QT_X11_NO_MITSHM=1 # Fix a bug with QT
+      - SDL_VIDEODRIVER=x11
+
+    privileged: true
+    network_mode: "host"
+    stdin_open: true
+    tty: true

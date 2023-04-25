@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  foxglove_bridge:
+    build:
+      context: ../docker/foxglove_bridge/
+      dockerfile: Dockerfile
+    ports:
+      - 8765:8765
+    container_name: foxglove_bridge
+    command: ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
+    restart: always

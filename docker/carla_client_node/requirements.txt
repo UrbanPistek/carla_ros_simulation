@@ -1,0 +1,6 @@
+future
+numpy
+pygame
+matplotlib
+open3d
+Pillow

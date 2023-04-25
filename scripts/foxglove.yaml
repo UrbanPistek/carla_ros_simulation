@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+
+  foxglove:
+    image: ghcr.io/foxglove/studio:latest
+    ports:
+      - 8080:8080
+    container_name: foxglove_studio
+    restart: always
