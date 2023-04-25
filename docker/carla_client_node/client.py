@@ -114,6 +114,8 @@ def main():
     finally:
         world.apply_settings(original_settings)
         for sensor in sensor_list:
+            if sensor.is_listening:
+                sensor.stop()
             sensor.destroy()
 
 

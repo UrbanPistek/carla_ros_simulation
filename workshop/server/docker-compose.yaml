@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simple_python_server 
+    restart: always
+    ports:
+      - "5050:5050"

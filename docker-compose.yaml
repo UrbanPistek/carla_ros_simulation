@@ -9,7 +9,7 @@ services:
     runtime: nvidia
     ports:
       - 2000-2002:2000-2002
-    command: /bin/bash -c "./CarlaUE4.sh -nosound -carla-server -RenderOffscreen -world-port=2000"
+    command: /bin/bash -c "./CarlaUE4.sh -nosound -carla-server -RenderOffscreen -world-port=2000 -carla-streaming-port=0"
 
   # Carla ROS bridge container
   bridge:
