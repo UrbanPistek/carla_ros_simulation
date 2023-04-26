@@ -10,6 +10,8 @@ This workshops aims cover the following topics:
 4. Using Foxglove 
 5. Running a Dockerized CARLA + ROS + Robotics Software Simulation Stack
 
+**[Workshop Video](https://youtu.be/a7EO-nI4rdI)**
+
 <br>
 
 ## Intro

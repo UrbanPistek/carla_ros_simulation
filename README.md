@@ -12,6 +12,15 @@ This file will provide a top level summary of everything you will need to setup 
 
 <br>
 
+## Workshop
+
+There is a workshop under the `workshop` folder which you can use to familiarize yourself with all the tools and software. 
+There is a written guide along with a video you can follow along.
+
+**[Workshop Video](https://youtu.be/a7EO-nI4rdI)**
+
+<br>
+
 # 1.0 Software & Tools <a name="sw-tools"></a>
 
 Below is a summary of all the software and tooling used for this project.
@@ -326,6 +335,8 @@ At the top level of the project is the `docker-compose.yaml` file which launches
 ├── scripts
 ├── utils
 └── workshop
+    ├── app
+    └── server
 ```
 
 <br>
